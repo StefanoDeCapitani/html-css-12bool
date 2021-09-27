@@ -15,11 +15,12 @@ div[class*="col-"] {
   text-align: center;
 }
 
-.box > .row > div[class*="col-"] {
+.box > .row > div[class*="col"] {
   background-color: blue;
+  min-height: 40px;
 }
 
-.box-nested > div[class*="col-"] {
+.box-nested > div[class*="col"] {
   background-color: rgb(1, 211, 1);
   min-height: 40px;
 }
@@ -29,6 +30,6 @@ div[class*="col-"] {
   width: 100%;
 }
 
-.row {
-  min-height: 40px;
+.alignment .row:nth-of-type(n + 4) {
+  min-height: 60px;
 }
