@@ -5,6 +5,9 @@
 .container {
   width: 100%;
   max-width: 992px;
+}
+
+*[class*="container"]:not([class*="container-fluid"]) {
   margin: auto;
 }
 
