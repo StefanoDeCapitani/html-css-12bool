@@ -21,6 +21,7 @@ div[class*="col-"] {
 
 .box-nested > div[class*="col-"] {
   background-color: rgb(1, 211, 1);
+  min-height: 40px;
 }
 
 .box-nested {
